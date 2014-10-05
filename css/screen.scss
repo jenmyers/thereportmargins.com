@@ -1,0 +1,165 @@
+---
+---
+
+/*
+	Styles for thereportmargins.com
+	Author: Jen Myers
+	Email: hello@jenmyers.net
+*/
+
+// Imports
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+// Variables
+
+$color-primary: #8c8c8c;
+$color-emphasis: #39aa9f;
+$color-heading: #d4f1ee;
+
+// Mixins
+
+@mixin transition-main {
+	transition-property: border-bottom, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@mixin transition-back {
+	transition-property: background-color, border;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+// Body Border
+
+html, body {
+  width: 100%; height: 100%; margin: 0; overflow: auto;
+}
+
+body:before, body:after {
+  content: "";
+  position: fixed;
+  background: #d4f1ee;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+body:before {
+  top: 0;
+}
+body:after {
+  bottom: 0;
+}
+body {
+  border-left: 10px solid #d4f1ee;
+  border-right: 10px solid #d4f1ee;
+}
+
+// Layout
+
+body {
+	background-color: #fff;
+	color: $color-primary;
+	font-family: "ff-tisa-web-pro", serif;
+	font-size: 1.5em;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	@include span-columns(8);
+	@include shift(2);
+	background-color: #fff;
+	padding: 2em;
+}
+
+.header-wrapper {
+	padding: 1em;
+}
+
+// Typography
+
+h1 {
+	color: $color-emphasis;
+	font-size: 3em;
+	font-weight: 500;
+	line-height: 1;
+	margin: 0 0 0.5em 0;
+	span {
+		font-weight: 100;
+	}
+}
+
+h2 {
+	font-family: "brandon-grotesque";
+	font-size: 0.8em;
+	font-weight: 700;
+	margin-bottom: 3em;
+	text-transform: uppercase;
+}
+
+p:first-of-type {
+	margin-top: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	font-size: 140%;
+	list-style: none;
+	margin-bottom: 1em;
+	a {
+		border-bottom: none;
+		font-weight: bold;
+		&:hover {
+			border-bottom: none;
+		}
+	}
+	span {
+		color: lighten($color-primary, 15%);
+		display: inline-block;
+		font-family: "brandon-grotesque";
+		font-size: 60%;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+}
+
+// Anchors
+
+a {
+	@include transition-main;
+  border-bottom: 2px solid lighten($color-emphasis, 35%);
+  color: $color-emphasis;
+  text-decoration: none;
+  &:hover {
+  	@include transition-main;
+    border-bottom: 2px solid darken($color-emphasis, 5%);
+    color: darken($color-emphasis, 35%);
+  }
+  &.back {
+  	@include transition-back;
+  	border: 2px solid lighten($color-emphasis, 25%);
+  	border-radius: 5px;
+  	display: inline-block;
+  	float: right;
+  	font-family: "brandon-grotesque";
+  	font-size: 75%;
+  	font-weight: 700;
+  	margin: 1em 0;
+  	padding: 0.6em 1.5em 0.5em 1.5em;
+  	text-transform: uppercase;
+  	&:hover {
+  		@include transition-back;
+  		background-color: $color-heading;
+  		border: 2px solid $color-heading;
+  		color: $color-emphasis;
+  	}
+  }
+}
