@@ -67,6 +67,9 @@ body {
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
+	@media (max-width: 380px) {
+		font-size: 1em;
+	}
 }
 
 .container {
@@ -74,6 +77,10 @@ body {
 	@include shift(2);
 	background-color: #fff;
 	padding: 2em;
+	@media (max-width: 480px) {
+		@include span-columns(12);
+		@include shift(0);
+	}
 }
 
 .header-wrapper {
