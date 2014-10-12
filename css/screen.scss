@@ -14,7 +14,8 @@
 
 // Variables
 
-$color-primary: #8c8c8c;
+$color-primary: #555;
+$color-secondary: #8c8c8c;
 $color-emphasis: #39aa9f;
 $color-heading: #d4f1ee;
 
@@ -101,9 +102,11 @@ h1 {
 }
 
 h2 {
+  color: $color-secondary;
 	font-family: "brandon-grotesque";
 	font-size: 0.8em;
-	font-weight: 700;
+	font-weight: 500;
+  letter-spacing: 0.1em;
 	margin-bottom: 3em;
 	text-transform: uppercase;
 }
@@ -159,7 +162,7 @@ a {
   	font-family: "brandon-grotesque";
   	font-size: 75%;
   	font-weight: 700;
-  	margin: 1em 0;
+  	margin: 2em 0;
   	padding: 0.6em 1.5em 0.5em 1.5em;
   	text-transform: uppercase;
   	&:hover {
