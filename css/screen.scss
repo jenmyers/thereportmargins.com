@@ -63,14 +63,17 @@ body {
 body {
 	background-color: #fff;
 	color: $color-primary;
-	font-family: "ff-tisa-web-pro", serif;
-	font-size: 1.5em;
-	line-height: 1.5;
+  font-family: "brandon-grotesque", sans-serif;
+	font-size: 2em;
+	line-height: 1.4;
 	margin: 0;
 	padding: 0;
-	@media (max-width: 380px) {
-		font-size: 1em;
+	@media (max-width: 768px) {
+		font-size: 1.6em;
 	}
+  @media (max-width: 380px) {
+    font-size: 1.2em;
+  }
 }
 
 .container {
@@ -78,7 +81,7 @@ body {
 	@include shift(2);
 	background-color: #fff;
 	padding: 2em;
-	@media (max-width: 480px) {
+	@media (max-width: 768px) {
 		@include span-columns(12);
 		@include shift(0);
 	}
@@ -92,7 +95,7 @@ body {
 
 h1 {
 	color: $color-emphasis;
-	font-size: 3em;
+	font-size: 225%;
 	font-weight: 500;
 	line-height: 1;
 	margin: 0 0 0.5em 0;
@@ -102,13 +105,18 @@ h1 {
 }
 
 h2 {
+  border-bottom: 1px solid #ddd;
   color: $color-secondary;
-	font-family: "brandon-grotesque";
-	font-size: 0.8em;
-	font-weight: 500;
+  font-size: 70%;
+	font-weight: 300;
   letter-spacing: 0.1em;
 	margin-bottom: 3em;
+  text-align: right;
 	text-transform: uppercase;
+}
+
+p {
+  font-weight: 300;
 }
 
 p:first-of-type {
@@ -120,22 +128,18 @@ ul {
 }
 
 li {
-	font-size: 140%;
+	font-size: 150%;
+  font-weight: 500;
 	list-style: none;
 	margin-bottom: 1em;
-	a {
-		border-bottom: none;
-		font-weight: bold;
-		&:hover {
-			border-bottom: none;
-		}
-	}
 	span {
 		color: lighten($color-primary, 15%);
 		display: inline-block;
 		font-family: "brandon-grotesque";
-		font-size: 60%;
+		font-size: 50%;
+    font-weight: 300;
 		letter-spacing: 0.1em;
+    margin-left: 0.5em;
 		text-transform: uppercase;
 		vertical-align: middle;
 	}
@@ -160,8 +164,8 @@ a {
   	display: inline-block;
   	float: right;
   	font-family: "brandon-grotesque";
-  	font-size: 75%;
-  	font-weight: 700;
+    font-size: 60%;
+    font-weight: 500;
   	margin: 2em 0;
   	padding: 0.6em 1.5em 0.5em 1.5em;
   	text-transform: uppercase;
