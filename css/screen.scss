@@ -117,6 +117,7 @@ h2 {
 
 p {
   font-weight: 300;
+  font-size: 90%;
 }
 
 p:first-of-type {
@@ -150,7 +151,7 @@ li {
 a {
 	@include transition-main;
   border-bottom: 2px solid lighten($color-emphasis, 35%);
-  color: $color-emphasis;
+  color: darken($color-emphasis, 15%);
   text-decoration: none;
   &:hover {
   	@include transition-main;
