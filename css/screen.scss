@@ -14,10 +14,14 @@
 
 // Variables
 
-$color-primary: #555;
-$color-secondary: #8c8c8c;
-$color-emphasis: #39aa9f;
-$color-heading: #d4f1ee;
+$color-background:  #f8ecd5;
+$color-primary:     #333;
+$color-secondary:   #8c8c8c;
+$color-emphasis:    #39aa9f;
+$color-heading:     #d4f1ee;
+$font-base:         "freight-text-pro", serif;
+$font-heading:      "adelle", serif;
+$font-accent:       "brandon-grotesque", sans-serif;
 
 // Mixins
 
@@ -28,7 +32,7 @@ $color-heading: #d4f1ee;
 }
 
 @mixin transition-back {
-	transition-property: background-color, border;
+	transition-property: background-color, border, color;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
@@ -36,16 +40,19 @@ $color-heading: #d4f1ee;
 // Body Border
 
 html, body {
-  width: 100%; height: 100%; margin: 0; overflow: auto;
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  width: 100%;
 }
 
 body:before, body:after {
+  background-color: darken($color-background, 15%);
   content: "";
+  height: 10px;
   position: fixed;
-  background: #d4f1ee;
   left: 0;
   right: 0;
-  height: 10px;
 }
 body:before {
   top: 0;
@@ -54,16 +61,16 @@ body:after {
   bottom: 0;
 }
 body {
-  border-left: 10px solid #d4f1ee;
-  border-right: 10px solid #d4f1ee;
+  border-left: 10px solid darken($color-background, 15%);
+  border-right: 10px solid darken($color-background, 15%);
 }
 
 // Layout
 
 body {
-	background-color: #fff;
+	background-color: $color-background;
 	color: $color-primary;
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: $font-base;
 	font-size: 2em;
 	line-height: 1.4;
 	margin: 0;
@@ -77,9 +84,8 @@ body {
 }
 
 .container {
-	@include span-columns(8);
-	@include shift(2);
-	background-color: #fff;
+	@include span-columns(10);
+	@include shift(1);
 	padding: 2em;
 	@media (max-width: 768px) {
 		@include span-columns(12);
@@ -94,9 +100,10 @@ body {
 // Typography
 
 h1 {
-	color: $color-emphasis;
+	color: $color-primary;
+  font-family: $font-heading;
 	font-size: 225%;
-	font-weight: 500;
+	font-weight: bold;
 	line-height: 1;
 	margin: 0 0 0.5em 0;
 	span {
@@ -105,8 +112,9 @@ h1 {
 }
 
 h2 {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid darken($color-background, 15%);
   color: $color-secondary;
+  font-family: $font-accent;
   font-size: 70%;
 	font-weight: 300;
   letter-spacing: 0.1em;
@@ -136,7 +144,7 @@ li {
 	span {
 		color: lighten($color-primary, 15%);
 		display: inline-block;
-		font-family: "brandon-grotesque";
+		font-family: $font-accent;
 		font-size: 50%;
     font-weight: 300;
 		letter-spacing: 0.1em;
@@ -150,21 +158,21 @@ li {
 
 a {
 	@include transition-main;
-  border-bottom: 2px solid lighten($color-emphasis, 35%);
-  color: darken($color-emphasis, 15%);
+  border-bottom: 1px solid darken($color-background, 15%);
+  color: $color-emphasis;
   text-decoration: none;
   &:hover {
   	@include transition-main;
-    border-bottom: 2px solid darken($color-emphasis, 5%);
+    border-bottom: 1px solid darken($color-background, 25%);
     color: darken($color-emphasis, 35%);
   }
   &.back {
   	@include transition-back;
-  	border: 2px solid lighten($color-emphasis, 25%);
+  	border: 1px solid $color-emphasis;
   	border-radius: 5px;
   	display: inline-block;
   	float: right;
-  	font-family: "brandon-grotesque";
+  	font-family: $font-accent;
     font-size: 60%;
     font-weight: 500;
   	margin: 2em 0;
@@ -172,9 +180,9 @@ a {
   	text-transform: uppercase;
   	&:hover {
   		@include transition-back;
-  		background-color: $color-heading;
-  		border: 2px solid $color-heading;
-  		color: $color-emphasis;
+  		background-color: $color-emphasis;
+  		border: 1px solid $color-emphasis;
+  		color: $color-background;
   	}
   }
 }
