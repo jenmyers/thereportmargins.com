@@ -14,13 +14,12 @@
 
 // Variables
 
-$color-background:  #f8ecd5;
+$color-background:  #f6f3ef;
 $color-primary:     #333;
 $color-secondary:   #8c8c8c;
-$color-emphasis:    #39aa9f;
+$color-emphasis:    #bdedee;
 $color-heading:     #d4f1ee;
 $font-base:         "freight-text-pro", serif;
-$font-heading:      "adelle", serif;
 $font-accent:       "brandon-grotesque", sans-serif;
 
 // Mixins
@@ -47,7 +46,7 @@ html, body {
 }
 
 body:before, body:after {
-  background-color: darken($color-background, 15%);
+  background-color: darken($color-background, 5%);
   content: "";
   height: 10px;
   position: fixed;
@@ -61,8 +60,8 @@ body:after {
   bottom: 0;
 }
 body {
-  border-left: 10px solid darken($color-background, 15%);
-  border-right: 10px solid darken($color-background, 15%);
+  border-left: 10px solid darken($color-background, 5%);
+  border-right: 10px solid darken($color-background, 5%);
 }
 
 // Layout
@@ -101,7 +100,6 @@ body {
 
 h1 {
 	color: $color-primary;
-  font-family: $font-heading;
 	font-size: 225%;
 	font-weight: bold;
 	line-height: 1;
@@ -112,7 +110,7 @@ h1 {
 }
 
 h2 {
-  border-bottom: 1px solid darken($color-background, 15%);
+  border-bottom: 1px solid darken($color-background, 5%);
   color: $color-secondary;
   font-family: $font-accent;
   font-size: 70%;
@@ -130,6 +128,10 @@ p {
 
 p:first-of-type {
 	margin-top: 0;
+}
+
+h1 + p {
+  font-style: italic;
 }
 
 ul {
@@ -158,17 +160,17 @@ li {
 
 a {
 	@include transition-main;
-  border-bottom: 1px solid darken($color-background, 15%);
-  color: $color-emphasis;
+  border-bottom: 1px solid darken($color-background, 10%);
+  color: darken($color-emphasis, 50%);
   text-decoration: none;
   &:hover {
   	@include transition-main;
-    border-bottom: 1px solid darken($color-background, 25%);
-    color: darken($color-emphasis, 35%);
+    border-bottom: 1px solid darken($color-background, 20%);
+    color: darken($color-emphasis, 30%);
   }
   &.back {
   	@include transition-back;
-  	border: 1px solid $color-emphasis;
+  	border: 1px solid darken($color-emphasis, 35%);
   	border-radius: 5px;
   	display: inline-block;
   	float: right;
@@ -180,8 +182,8 @@ a {
   	text-transform: uppercase;
   	&:hover {
   		@include transition-back;
-  		background-color: $color-emphasis;
-  		border: 1px solid $color-emphasis;
+  		background-color: darken($color-emphasis, 35%);
+  		border: 1px solid darken($color-emphasis, 35%);
   		color: $color-background;
   	}
   }
