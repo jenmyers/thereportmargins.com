@@ -139,21 +139,28 @@ ul {
 }
 
 li {
-	font-size: 150%;
-  font-weight: 500;
-	list-style: none;
-	margin-bottom: 1em;
-	span {
-		color: lighten($color-primary, 15%);
-		display: inline-block;
-		font-family: $font-accent;
-		font-size: 50%;
-    font-weight: 300;
-		letter-spacing: 0.1em;
-    margin-left: 0.5em;
-		text-transform: uppercase;
-		vertical-align: middle;
-	}
+  font-size: 90%;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.note-list {
+  li {
+    font-size: 150%;
+    font-weight: 500;
+    list-style: none;
+    span {
+      color: lighten($color-primary, 15%);
+      display: inline-block;
+      font-family: $font-accent;
+      font-size: 50%;
+      font-weight: 300;
+      letter-spacing: 0.1em;
+      margin-left: 0.5em;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+  }
 }
 
 // Anchors
