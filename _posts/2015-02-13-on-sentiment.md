@@ -1,0 +1,16 @@
+---
+layout: note
+title: On sentiment
+---
+
+I have a box of sentiments that I inherited in my youth, as everyone does, and recently I pulled it out of the dark corner it had rested in for years to evaluate them. I think many people put their boxes away once their intelligence matures, when they start to realize that the precepts taught to them in preschool books and fairy tale cartoons and greeting card messages may not speak to the full complexity of reality. I did. I collected every bit of well-intentioned advice and homespun wisdom, and declared them simplistic platitudes. I shook them all out into the box and placed the lid and put it away.
+ 
+Confusing cynicism for wisdom is easy to do, and once one learns skepticism, it becomes a ready weapon. In my hand, skepticism became a hammer, and I smashed anything and everything I encountered, convinced that would release the truth. Some times it did. But, in retrospect, I see the associated destruction may not have always been worth it, and, in the cases where no truth was to be found, the destruction was abhorrent. I learned that distrust of simple truths can become a dogma in itself, and, when wielded offensively, a dangerous one.
+ 
+Which, at some point, if one is honest and responsible enough, brings one to reevaluation. Or, more accurately, real evaluation. It’s difficult to learn how to evaluate in detail and on an individual basis rather than apply judgment according to a previously-established philosophy of good/bad. Instead of accepting or rejecting entirely and reflexively, we have to see nuance and context. I have learned that some preschool books and fairy tale cartoons and greeting card messages are simple because they don’t have to be anything else, not because they’re untrue. I have learned that some nice things are just nice. I have learned that there is genuine joy to be found in childlike circumstances. I have learned that some people and events simply aren’t for me. I have learned that the dim and dark context I myself bring to a sentimental situation colors my judgment of the situation far more that any other situational factor does. I have learned that cynicism is not in fact wisdom and that sentiment is as variable in quality and purpose as any other human notion.
+ 
+I don’t believe in loving everyone all the time. I don’t believe in forgiving everyone. I don’t believe in casting aside all anger. I also don’t believe in hatred. I also don’t believe in holding grudges. I also don’t believe in being outraged all the time. I also don’t believe in not fighting for justice.
+ 
+The truth is that nothing true is uncomplicated and that it is our job as adults to be constantly evaluating, understanding, learning and balancing. It’s not sentiment that is the enemy. It’s the ferocity of self-absorption with which we either embrace or reject it.
+ 
+I may not have got rid of my box, and I may not ever. It’s okay to keep a box of things you don’t need, and to keep it in its dark corner. Hopefully you take it out from time to time to face it and shuffle its contents around. But the thing to remember is that everyone has a box, casting a shadow over everything they do and say, and empty sentiment never really is.
