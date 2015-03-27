@@ -1,0 +1,16 @@
+---
+layout: note
+title: On gratitude
+---
+
+I have, at best, a wary relationship with most commonly accepted virtues, and my relationship with gratitude has always been one of the wariest. I believe in gratitude of a matter of respect. I believe in gratitude as a factor necessary to awareness and growth. But gratitude as something to celebrate, honor and recommend—I’m not sure if I can do it. I’m not sure if I want to do it.
+ 
+Of course, this speaks far more to my own personality than to any quality of gratitude itself. To me, it smacks of subservience, of humbling oneself before a higher power, of ascribing one’s accomplishments or worth to an external force. If you’ve known me for more than a few seconds, it’s likely clear that this is … not my style. I’m proud. I’m stubborn. I’m made rough around the edges by life. I refuse polish, and I make that refusal into an identity. If this might not be the best way to go about things, well, repeat that list.
+ 
+When I was younger, the myopia that reduces our scope of judgment to what others have that we don’t ruled, and I never believed I had much to be grateful for. As I grew older, I understood that I was right about this is some areas and wrong in others. I also learned that most of the good things in my life were due to chance, which I don’t believe deserves gratitude at all. Recognition, acknowledgment, comprehension, yes. But gratitude? Gratitude, it seems, should be reserved as a payment to human beings who actively work to do what’s right. They deserve it. Spreading it around to fortunate happenstance cheapens its value.
+ 
+And what about unfortunate happenstance? Or, more pointedly, human beings who do not do what’s right? It’s true that these happenings can yield positive results for us. Sometimes it takes a long time. Always it takes a willingness to learn. I know that the people who have hurt me the worst during my life provided useful lessons. They provided examples of who I did not want to be and the motivation to be better than they were. Years past, I’m genuinely glad for most of the misfortune in my life. But this is where gratitude really sticks. Gladness is not gratitude. I have no one to thank. Are we really supposed to be grateful for injustice? Are we really supposed to rationalize those who act unjustly and harmfully as blessings in disguise? To me, this is merely a method of philosophical oppression. I’m not interested in any definition of gratitude that doesn’t liberate.
+ 
+When we meet misfortune, it’s not the misfortune that makes or breaks us. It’s what we decide to do about it. You are not allowed to give up the blame, or are required to give up the credit, for what you do because of the misfortune.
+ 
+Which is why gratitude simply isn’t necessary in most cases. Be aware, know how lucky you are. Respect it, and respect the fact that others may not be as lucky. Be willing to learn from hurt and even be glad of it. But save your gratitude for those who demonstrate with their actions that they deserve it. Do not pay a fealty of gratitude to any power that demands it. Do not make yourself less so that someone else can be more. Because, whatever you’ve been through, you’re good enough on your own.
