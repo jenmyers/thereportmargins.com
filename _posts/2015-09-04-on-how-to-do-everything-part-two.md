@@ -1,6 +1,6 @@
 ---
 layout: note
-title: On how I do everything, part two
+title: On how to do everything, part two
 ---
 
 One of the psychological rhythms I’ve carried with me into adulthood is that fall is for new starts and fresh work. With eighty-degree weather in Chicago and Labor Day still pending, it’s not quite fall yet—but my own summer of lax habits and project breaks is coming to a close and now I’m rededicating myself to Doing Things.
