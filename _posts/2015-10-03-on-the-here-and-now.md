@@ -1,6 +1,6 @@
 ---
 layout: note
-title: On saying the here and now
+title: On the here and now
 ---
 
 It’s early in the morning on the West Coast and this early morning Midwesterner is awake even more in advance of the sunrise than usual. Even with a head cold that stealthily stalked me for the past week and a half and finally pounced on the flight to Seattle yesterday. Later today, I will give a talk at a conference, somewhere around the fortieth conference talk I’ve given in the past four years, and the last I’ll give for a long time.
